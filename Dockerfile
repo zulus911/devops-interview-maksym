@@ -14,7 +14,7 @@ FROM python:3.8-slim
 RUN apt-get update -y && apt-get install  -y  \
     gcc \
     libpq-dev &&\
-    pip install pip --upgrade && \
+    pip install pip --upgrade
 
 COPY . .
 
